@@ -39,19 +39,6 @@ In the last phase, the algorithm must check the nipple candidates obtained in th
   <img src="https://github.com/DeVillax/Nipple-Detection/blob/main/Images/result.jpg" width="400" /> 
 </p>
 
-
-## Results
-
-The performance of the implemented algorithm is overall good as it was able to successfully detect and mark the correct location of the nipples in 4 out of 6 images, namely images (a), (c), (d), and (e). 
-
-On the other hand, the algorithm seems to struggle to detect the nipples in images (b), and (f) as it exhibits incorrect behaviour.  Regarding image (b), if we manually visualize it, we can see that the nipples are not clearly shown in the image, so it is difficult to discern their location even with the human eye. The algorithm does a ‘best effort’ and marks two points in the image although they don’t represent the actual location of the nipples.
-
-If now we shift our focus to image (f), the algorithm detected a point proximate to the left nipple, although it is simple to see that it falls at the areola and not on the nipple itself. Furthermore, the algorithm fails to detect any candidates for the right nipple on the right part of the body.
-
-Regarding the recall and precision, this wouldn’t accurately represent the performance of the implemented algorithm as it was only tested with a small set of 6 samples. To obtain a better recall and precision values that would truly represent the performance of the algorithm, the whole set of images would need to be used.  In our case of 6 samples, the algorithm successfully detected 8 nipples out of 12. 
-
-Finally, in terms of performance, we calculate the average execution time the algorithm takes to operate the set of 6 samples. In this case, we get similar results to the ones presented in the paper of 0.31s [1]
-
 ## References
 
 [1] 	Mohamed Abdel-Nasser, Adel Saleh, Antonio Moreno, and Domenec Puig. 2016. Automatic nipple detection in breast thermograms. Expert Syst. Appl. 64, C (December 2016), 365–374. DOI:https://doi.org/10.1016/j.eswa.2016.08.026
