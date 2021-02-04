@@ -29,12 +29,12 @@ To implement this phase, we followed the indications outlined in the paper [1] a
 3.	Nipples selection 
 In the last phase, the algorithm must check the nipple candidates obtained in the previous phase and select the correct position of the nipples.  To do this, a series of operations were performed on the candidates such as removing candidates that fall in either the upper or lower bounds of the thermogram with respect to the body, calculate the roundness of each candidate as nipples are approximately circular, etc.
 
-<p float="left">
+<p float="left" align="center">
   <img src="https://github.com/DeVillax/Nipple-Detection/blob/main/Images/original.jpg" width="400" />
   <img src="https://github.com/DeVillax/Nipple-Detection/blob/main/Images/segmented.jpg" width="400" /> 
 </p>
 
-<p float="left">
+<p float="left" align="center">
   <img src="https://github.com/DeVillax/Nipple-Detection/blob/main/Images/candidates.jpg" width="400" />
   <img src="https://github.com/DeVillax/Nipple-Detection/blob/main/Images/result.jpg" width="400" /> 
 </p>
