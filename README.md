@@ -14,7 +14,7 @@ To test the performance of the implemented algorithm a set of 6 breast thermogra
 * IR_3759: (e)
 * IR_4089: (f)
 
-## 2.	Algorithm Implementation
+## Algorithm Implementation
 
 The algorithm presented in the paper [1] is composed of three sequential phases:
 
