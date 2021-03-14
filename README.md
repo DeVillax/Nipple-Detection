@@ -5,14 +5,7 @@ Implementation of the paper "Automatic nipple detection in breast thermograms" i
 ## Introduction
 
 This document aims to present the implementation of the algorithm presented in the paper “Automatic nipple detection in breast thermograms” [1] alongside its results over a set of 6 images. This implementation constituted the deliverable of the first graded assignment of the Artificial Vision and Pattern Recognition (AVPR) course.
-To test the performance of the implemented algorithm a set of 6 breast thermograms was provided. For simplicity, the images were renamed as follow:
-
-* IR_0100: (a)
-* IR_1365: (b)
-* IR_2841: (c)
-* IR_3635: (d)
-* IR_3759: (e)
-* IR_4089: (f)
+To test the performance of the implemented algorithm a set of 6 breast thermograms was provided.
 
 ## Algorithm Implementation
 
